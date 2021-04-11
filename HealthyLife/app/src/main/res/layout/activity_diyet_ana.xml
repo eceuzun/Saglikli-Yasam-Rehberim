@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Linea ut xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#D1A216"
+    tools:context=".DiyetAnaActivity">
+
+    <ImageButton
+        android:id="@+id/btn_main"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/diyetana" />
+
+    <ImageButton
+        android:id="@+id/btn_kilover"
+        android:layout_width="380dp"
+        android:layout_height="135dp"
+        android:background="#987611"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/diyet1"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_kiloal"
+        android:layout_width="380dp"
+        android:layout_height="135dp"
+        android:background="#987611"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/diyet2"
+        />
+    <ImageButton
+    android:id="@+id/btn_diyettarif"
+    android:layout_width="380dp"
+    android:layout_height="135dp"
+    android:background="#987611"
+    android:layout_marginTop="2dp"
+    app:srcCompat="@drawable/diyet3"
+    />
+    <ImageButton
+        android:id="@+id/btn_diyethata"
+        android:layout_width="380dp"
+        android:layout_height="130dp"
+        android:background="#987611"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/diyet4"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#D1A216"
+    tools:context=".GirisActivity">
+
+    <ImageButton
+        android:id="@+id/btn_main"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/maini" />
+
+    <ImageButton
+        android:id="@+id/btn_gunluk"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/gunluk"
+        />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_beslenme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/beslenm" />
+
+        <ImageButton
+            android:id="@+id/btn_egzersiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/egzersiz" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_saglik"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+
+        app:srcCompat="@drawable/saglik"
+        />
+
+
+
+</LinearLayout>

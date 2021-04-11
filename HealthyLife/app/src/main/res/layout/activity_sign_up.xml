@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".SignUpActivity">
+
+
+    <TextView
+        android:id="@+id/txt_baslık"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="YENİ KAYIT"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/etxt_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="30dp"
+        android:hint="Ad"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etxt_Surname"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="0dp"
+        android:hint="Soyad"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etxt_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="0dp"
+        android:hint="E-Mail"
+        android:inputType="textWebEmailAddress" />
+
+    <EditText
+        android:id="@+id/etxt_PersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="0dp"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etxt_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="0dp"
+        android:hint="Şifre"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etxt_Password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="0dp"
+        android:hint="Şifre(Tekrar)"
+        android:inputType="textPassword" />
+
+
+    <RadioGroup
+        android:layout_width="207dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="150dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtn_kadin"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="KADIN"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#FA0317" />
+
+        <RadioButton
+            android:id="@+id/rbtn_erkek"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="5dp"
+            android:text="ERKEK"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#F40404" />
+
+
+    </RadioGroup>
+
+
+
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="0dp"
+        android:text="KAYIT OL"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txt_sifreunuttum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="50dp"
+        android:text="   "
+        android:textColor="#FFC107"
+        android:textSize="15dp" />
+
+</LinearLayout>
